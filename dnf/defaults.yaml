@@ -1,0 +1,8 @@
+dnf:
+  config: /etc/dnf/dnf.conf
+  options:
+    gpgcheck: 1
+    installonly_limit: 3
+    clean_requirements_on_remove: True
+    best: True
+    skip_if_unavailable: False

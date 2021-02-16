@@ -1,0 +1,11 @@
+# vim: ft=yaml
+
+dnf:
+  # Lookup static data
+  lookup:
+    config: /etc/dnf/dnf.conf
+
+  # Global configuration options, see man 5 dnf.conf
+  options:
+    keepcache: 1
+    proxy: http://proxy.example.net:3128
